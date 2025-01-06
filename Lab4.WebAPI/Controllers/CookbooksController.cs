@@ -61,6 +61,13 @@ namespace Lab4.WebAPI.Controllers
             _db.SaveChanges();
         }
 
+
+        [HttpGet("filtered")]
+        public Cookbook[] GetCookbooks([FromQuery] string title)
+        {
+            var data = _db.Cookbooks.Where(c => c.Title.Contains(title)).ToArray();
+            return data;
+        }
     
 }
 }

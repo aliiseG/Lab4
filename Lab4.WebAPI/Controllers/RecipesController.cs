@@ -60,6 +60,13 @@ namespace Lab4.WebAPI.Controllers
 
             _db.SaveChanges();
         }
+        [HttpGet("filtered")]
+        public Recipe[] GetRecipes([FromQuery] int max_preptime)
+        {
+            var data = _db.Recipes.Where(r => r.PrepTime <= max_preptime).ToArray();
+            return data;
+        }
+
 
     }
 
