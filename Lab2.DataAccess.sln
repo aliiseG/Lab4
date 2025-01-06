@@ -10,7 +10,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab2.Console", "Lab2.Consol
 		{D182F0DC-49CA-4D93-89AB-8B77681F0112} = {D182F0DC-49CA-4D93-89AB-8B77681F0112}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3.WpfApplication", "..\Lab3.WpfApplication\Lab3.WpfApplication.csproj", "{1F72A931-A982-49D4-9F3F-1C1C7C006938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab3.WpfApplication", "..\Lab3.WpfApplication\Lab3.WpfApplication.csproj", "{1F72A931-A982-49D4-9F3F-1C1C7C006938}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D182F0DC-49CA-4D93-89AB-8B77681F0112} = {D182F0DC-49CA-4D93-89AB-8B77681F0112}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4.WebAPI", "Lab4.WebAPI\Lab4.WebAPI.csproj", "{086D6CF1-32AE-4DFC-B5FF-38512B7B90C7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D182F0DC-49CA-4D93-89AB-8B77681F0112} = {D182F0DC-49CA-4D93-89AB-8B77681F0112}
 	EndProjectSection
@@ -33,6 +38,10 @@ Global
 		{1F72A931-A982-49D4-9F3F-1C1C7C006938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F72A931-A982-49D4-9F3F-1C1C7C006938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F72A931-A982-49D4-9F3F-1C1C7C006938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086D6CF1-32AE-4DFC-B5FF-38512B7B90C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086D6CF1-32AE-4DFC-B5FF-38512B7B90C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086D6CF1-32AE-4DFC-B5FF-38512B7B90C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086D6CF1-32AE-4DFC-B5FF-38512B7B90C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

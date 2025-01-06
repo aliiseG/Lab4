@@ -23,7 +23,7 @@ namespace Lab2.DataAccess
         [Required] 
         public int PrepTime { get; set; }
 
-        public Cookbook Cookbooks { get; set; }
+        //public Cookbook Cookbooks { get; set; }
 
         public List<Ingredient> Ingredients { get; set; } = new();
     }

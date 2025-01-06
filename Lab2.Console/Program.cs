@@ -26,8 +26,8 @@ namespace Lab2.Console
             //db.Cookbooks.Add(cbook);
             //db.Cookbooks.Add(cbook2);
 
-            var vegetarian2 = db.Cookbooks.FirstOrDefault(v => v.Title == "Vegetarian");
-            var healthy2 = db.Cookbooks.FirstOrDefault(v => v.Title == "Healthy");
+            //var vegetarian2 = db.Cookbooks.FirstOrDefault(v => v.Title == "Vegetarian");
+            //var healthy2 = db.Cookbooks.FirstOrDefault(v => v.Title == "Healthy");
             //var rcp = new Recipe
             //{
             //    Category = "Breakfast",
