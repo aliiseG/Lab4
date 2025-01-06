@@ -7,7 +7,7 @@ namespace Lab2.DataAccess
         public DbSet<Recipe> Recipes { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
 
-        //public DbSet<Cookbook> Cookbooks { get; set; }
+        public DbSet<Cookbook> Cookbooks { get; set; }
 
         public RecipeDbContext()
         {
